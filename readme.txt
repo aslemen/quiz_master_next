@@ -91,7 +91,7 @@ Quiz And Survey Master is fully functional and is packed with tons of features t
 **Reachout to us**
 * You can contact our pro support via our [Contact Form](https://quizandsurveymaster.com/contact-support/) or use the WordPress form for free plugin support. We are equally active on both places.
 * Join our [official FB group](https://www.facebook.com/groups/516958552587745).
-* Quiz And Survey Master on [GitHub](https://github.com/QuizandSurveyMaster/quiz_master_next/)!
+* Quiz And Survey Master on [GitHub](https://github.com/aslemen/quiz_master_next/)!
 
 = Comparison with other Quiz Plugins =
 * Quiz cat (quizcat) - We offer a lot more questions types than just viral quiz and multiple choice. We provide a tons of integrations to help you automate your marketing campaign.
@@ -447,7 +447,7 @@ This is usually a theme conflict. You can [checkout out our common conflict solu
 * Closed Enhancement: Rewrite emails to allow for different conditions ([Issue #379](https://github.com/QuizandSurveyMaster/quiz_master_next/issues/379))
 * Closed Enhancement: Rewrite results pages to allow for different conditions ([Issue #378](https://github.com/QuizandSurveyMaster/quiz_master_next/issues/378))
 
-([Read Full Changelog](https://github.com/QuizandSurveyMaster/quiz_master_next/blob/master/CHANGELOG.md))
+([Read Full Changelog](https://github.com/aslemen/quiz_master_next/blob/master/CHANGELOG.md))
 
 == Upgrade Notice ==
 

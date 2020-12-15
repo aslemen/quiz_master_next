@@ -34,7 +34,7 @@ function qsm_generate_about_page() {
 			<?php
 			$contributors = get_transient( 'qmn_contributors' );
 			if ( false === $contributors ) {
-				$response = wp_remote_get( 'https://api.github.com/repos/QuizandSurveyMaster/quiz_master_next/contributors', array( 'sslverify' => false ) );
+				$response = wp_remote_get( 'https://github.com/aslemen/quiz_master_next/contributors', array( 'sslverify' => false ) );
 				if ( is_wp_error( $response ) || 200 != wp_remote_retrieve_response_code( $response ) ) {
 					$contributors = array();
 				} else {
@@ -61,7 +61,7 @@ function qsm_generate_about_page() {
 				echo $contributor_list;
 			}
 			?>
-			<a href="https://github.com/QuizandSurveyMaster/quiz_master_next" target="_blank" class="button-primary">View GitHub Repo</a>
+			<a href="https://github.com/aslemen/quiz_master_next" target="_blank" class="button-primary">View GitHub Repo</a>
 		</div>
 	</div>
 <?php
