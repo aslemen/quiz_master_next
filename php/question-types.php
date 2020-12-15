@@ -81,7 +81,7 @@ function qmn_file_upload_review($id, $question, $answers){
         {
           $decode_correct_text = strval(htmlspecialchars_decode($answer[0], ENT_QUOTES));
           $return_array['correct_text'] = trim( preg_replace( '/\s\s+/', ' ', str_replace( "\n", " ", $decode_correct_text ) ) );
-          if (mb_strtoupper($return_array['user_text']) == mb_strtoupper($return_array['correct_text']))
+          if (($return_array['user_text']) == ($return_array['correct_text']))
           {
             $return_array['correct'] = "correct";
             $return_array['points'] = $answer[1];
@@ -261,7 +261,7 @@ function qmn_date_review($id, $question, $answers) {
     foreach ($answers as $answer) {
         $decode_correct_text = strval(htmlspecialchars_decode($answer[0], ENT_QUOTES));
         $return_array['correct_text'] = trim(preg_replace('/\s\s+/', ' ', str_replace("\n", " ", $decode_correct_text)));
-        if (mb_strtoupper($return_array['user_text']) == mb_strtoupper($return_array['correct_text'])) {
+        if (($return_array['user_text']) == ($return_array['correct_text'])) {
             $return_array['correct'] = "correct";
             $return_array['points'] = $answer[1];
             break;
@@ -545,7 +545,7 @@ function qmn_small_open_review($id, $question, $answers)
   {
     $decode_correct_text = strval(htmlspecialchars_decode($answer[0], ENT_QUOTES));
     $return_array['correct_text'] = trim( preg_replace( '/\s\s+/', ' ', str_replace( "\n", " ", $decode_correct_text ) ) );
-    if (mb_strtoupper($return_array['user_text']) == mb_strtoupper($return_array['correct_text']))
+    if (($return_array['user_text']) == ($return_array['correct_text']))
     {
       $return_array['correct'] = "correct";
       $return_array['points'] = $answer[1];
@@ -721,7 +721,7 @@ function qmn_large_open_review($id, $question, $answers)
   {
     $decode_correct_text = strval(htmlspecialchars_decode($answer[0], ENT_QUOTES));
     $return_array['correct_text'] = trim( preg_replace( '/\s\s+/', ' ', str_replace( "\n", " ", $decode_correct_text ) ) );
-    if (mb_strtoupper($return_array['user_text']) == mb_strtoupper($return_array['correct_text']))
+    if (($return_array['user_text']) == ($return_array['correct_text']))
     {
       $return_array['correct'] = "correct";
       $return_array['points'] = $answer[1];
@@ -1159,7 +1159,7 @@ function qmn_fill_blank_review($id, $question, $answers)
   {
     $decode_correct_text = strval(htmlspecialchars_decode($answer[0], ENT_QUOTES));
     $return_array['correct_text'] = trim( preg_replace( '/\s\s+/', ' ', str_replace( "\n", " ", $decode_correct_text ) ) );
-    if (mb_strtoupper($return_array['user_text']) == mb_strtoupper($return_array['correct_text']))
+    if (($return_array['user_text']) == ($return_array['correct_text']))
     {
       $return_array['correct'] = "correct";
       $return_array['points'] = $answer[1];
