@@ -2144,7 +2144,7 @@ msgstr ""
 #: php/classes/class-qmn-quiz-manager.php:1272
 #: php/classes/class-qsm-install.php:533
 msgid "Retake Quiz"
-msgstr ""
+msgstr "新たに解答する"
 
 #: php/classes/class-qmn-quiz-manager.php:1439
 msgid "Click here to view"
