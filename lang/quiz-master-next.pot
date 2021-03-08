@@ -130,17 +130,17 @@ msgstr ""
 msgid ""
 "Many of our quizzes, surveys, and forms are created using Quiz And Survey "
 "Master."
-msgstr ""
+msgstr "本サイトの問題やアンケート、フォームの多くは、Quiz and Surveyで作られています。"
 
 #: php/gdpr.php:30
 msgid "The data the software collects"
-msgstr ""
+msgstr "本サイトが収集する利用者の個人情報"
 
 #: php/gdpr.php:31
 msgid ""
 "In order to distinguish individual users, IP addresses are collected and "
 "stored with the responses."
-msgstr ""
+msgstr "利用者を区別するために，利用者の回答と合わせて，IPアドレスも収集しております。"
 
 #: php/gdpr.php:32
 msgid ""
@@ -150,100 +150,103 @@ msgid ""
 "personal information and this data may be for different purposes for each "
 "quiz, survey, or form. If any data is to be used for purposes other than "
 "grading or survey purposes, this will be disclosed on the form itself."
-msgstr ""
+msgstr "個々のフォーム（問題集）には、他にも、名前やEmailなどの個人情報を入力するフィールドを持つことがあります。"
+"これらのデータは、利用者の特定や、ありうるかもしれない利用者との相互連絡のために必要です。"
+"それぞれの問題集やアンケート、フォームには、種々の理由に基づき個人情報を求めるフィールドが、他にもある場合があります。"
+"これらのデータが、評点や調査以外の目的で用いられる場合、このことはフォームに明記されます。"
 
 #: php/gdpr.php:33
 msgid "How long we retain your data"
-msgstr ""
+msgstr "個人情報を保持する期間"
 
 #: php/gdpr.php:34
 msgid ""
 "The responses and data attached to the responses are stored indefinitely "
 "until an administrator of this site deletes the responses."
-msgstr ""
+msgstr "利用者の解答やそれに付随する情報は、サイト管理者が手動で削除しない限り保持されます。"
 
 #: php/gdpr.php:35
 msgid ""
 "Change This! If you are using an addon or custom software to sync data with "
 "a 3rd party (such as MailChimp), data is retained there which should be "
 "mentioned here."
-msgstr ""
+msgstr "（書き換えてください！）もし、本プラグインとデータを同期するような、サードパーティーのアドオンやソフトウェア（例：MailChimp）を利用している場合、データはそこにも残るので、このことを原級しなければばりません。"
 
 #: php/gdpr.php:36
 msgid "Where we send your data"
-msgstr ""
+msgstr "個人情報の送信先"
 
 #: php/gdpr.php:37
 msgid ""
 "Quiz And Survey Master does not send any of your data to anywhere outside of "
 "this site by default."
-msgstr ""
+msgstr "Quiz and Survey Masterは、デフォルトの場合、利用者の個人情報を他のいかなる場所にも送信することはありません。"
 
 #: php/gdpr.php:38
 msgid ""
 "Change This! If you are sharing the responses with anyone and do not list it "
 "anywhere else in your privacy policy, enter information about that here. "
-msgstr ""
+msgstr "（書き換えてください！）利用者の回答を利用するソフトウェア等で、プライバシーポリシーにまだ載せていないのであれば、ここに書いてください。"
 
 #: php/gdpr.php:91
 msgid "Form Responses"
-msgstr ""
+msgstr "フォームの回答"
 
 #: php/gdpr.php:134
 msgid "Form Name"
-msgstr ""
+msgstr "フォームの名前"
 
 #: php/gdpr.php:138
 msgid "Time Submitted"
-msgstr ""
+msgstr "フォームの提出をした時刻"
 
 #: php/gdpr.php:142
 msgid "Points Earned"
-msgstr ""
+msgstr "点数"
 
 #: php/gdpr.php:146
 msgid "Score Earned"
-msgstr ""
+msgstr "総点数"
 
 #: php/gdpr.php:150
 msgid "Questions Answered Correctly"
-msgstr ""
+msgstr "正答であった回答"
 
 #: php/gdpr.php:154
 msgid "Total Questions"
-msgstr ""
+msgstr "総問題数"
 
 #: php/gdpr.php:158
 msgid "Name Field"
-msgstr ""
+msgstr "利用者名を記入するフィールド"
 
 #: php/gdpr.php:162
 msgid "Business Field"
-msgstr ""
+msgstr "所属フィールド"
 
 #: php/gdpr.php:166
 msgid "Email Field"
-msgstr ""
+msgstr "メールアドレス フィールド"
 
 #: php/gdpr.php:170
 msgid "Phone Field"
-msgstr ""
+msgstr "電話番号フィールド"
 
 #: php/gdpr.php:174
 msgid "User ID"
-msgstr ""
+msgstr "ユーザーID"
 
 #: php/gdpr.php:178 php/admin/admin-results-page.php:344
 msgid "IP Address"
-msgstr ""
+msgstr "IPアドレス"
 
 #: php/gdpr.php:182
 msgid "Time to complete form"
-msgstr ""
+msgstr "回答に要した時間"
 
 #: php/gdpr.php:186
 msgid "Form comments"
-msgstr ""
+msgstr "フォームへのコメント"
 
 #: php/question-types.php:14
 msgid "Vertical Multiple Choice"
@@ -332,11 +335,11 @@ msgstr ""
 
 #: php/template-variables.php:890 php/template-variables.php:899
 msgid "No answer provided"
-msgstr ""
+msgstr "未解答"
 
 #: php/template-variables.php:997
 msgid "No Answer Provided"
-msgstr ""
+msgstr "未解答"
 
 #: php/admin/about-page.php:29
 msgid "Welcome To Quiz And Survey Master (Formerly Quiz Master Next)"
