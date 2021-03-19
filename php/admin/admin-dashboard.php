@@ -541,7 +541,7 @@ function qsm_create_new_quiz_from_wizard() {
 	// Create new quiz.
 	if ( isset( $_POST['qsm_new_quiz_nonce'] ) && wp_verify_nonce( $_POST['qsm_new_quiz_nonce'], 'qsm_new_quiz' ) ) {
 		global $mlwQuizMasterNext;
-		$quiz_name = sanitize_text_field( htmlspecialchars( stripslashes( $_POST['quiz_name'] ), ENT_QUOTES ) );
+		$quiz_name = nl2br(sanitize_text_field( htmlspecialchars( stripslashes( $_POST['quiz_name'] ), ENT_QUOTES ) ) );
 		unset( $_POST['qsm_new_quiz_nonce'] );
 		unset( $_POST['_wp_http_referer'] );
 		$setting_arr = array(

@@ -41,7 +41,7 @@ function qsm_generate_quizzes_surveys_page() {
     // Duplicate Quiz.
     if (isset($_POST['qsm_duplicate_quiz_nonce']) && wp_verify_nonce($_POST['qsm_duplicate_quiz_nonce'], 'qsm_duplicate_quiz')) {
         $quiz_id = intval($_POST['duplicate_quiz_id']);
-        $quiz_name = sanitize_text_field(htmlspecialchars($_POST['duplicate_new_quiz_name'], ENT_QUOTES));
+        $quiz_name = nl2br(sanitize_textarea_field(htmlspecialchars($_POST['duplicate_new_quiz_name'], ENT_QUOTES)));
         $mlwQuizMasterNext->quizCreator->duplicate_quiz($quiz_id, $quiz_name, isset($_POST['duplicate_questions']) ? sanitize_text_field( $_POST['duplicate_questions'] ) : 0);
     }
 

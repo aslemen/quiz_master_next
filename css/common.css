@@ -14,7 +14,7 @@
     display: inline-block !important;
 }
 body .quiz_section .mlw_qmn_question{
-    display: inline-block;
+    display: block;
 }
 
 body .quiz_section .qsm_contact_div .mlw_qmn_question{
