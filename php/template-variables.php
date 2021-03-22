@@ -1018,11 +1018,11 @@ function qsm_questions_answers_shortcode_to_text($mlw_quiz_array, $qmn_question_
         }
         $mlw_question_answer_display = str_replace("%USER_ANSWER%", "<span class='$user_answer_class'>" . htmlspecialchars_decode($user_answer_new, ENT_QUOTES) . '</span>', $mlw_question_answer_display);
     }
-    $answer_2 = !empty($answer[2]) ? $answer[2] : 'NA';
+    $answer_2 = !empty($answer[2]) ? $answer[2] : '&mdash;';
     $mlw_question_answer_display = str_replace("%CORRECT_ANSWER%", htmlspecialchars_decode($answer_2, ENT_QUOTES), $mlw_question_answer_display);
-    $answer_3 = !empty($answer[3]) ? $answer[3] : 'NA';
+    $answer_3 = !empty($answer[3]) ? $answer[3] : '&mdash;';
     $mlw_question_answer_display = str_replace("%USER_COMMENTS%", $answer_3, $mlw_question_answer_display);
-    $answer_4 = !empty($qmn_questions[$answer['id']]) ? $qmn_questions[$answer['id']] : 'NA';
+    $answer_4 = !empty($qmn_questions[$answer['id']]) ? $qmn_questions[$answer['id']] : '&mdash;';
     $mlw_question_answer_display = str_replace("%CORRECT_ANSWER_INFO%", htmlspecialchars_decode($answer_4, ENT_QUOTES), $mlw_question_answer_display);
     //Point score of the particular question.
     $question_point = isset( $answer['points'] ) ? $answer['points'] : '0';
