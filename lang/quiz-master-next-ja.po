@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-06 12:59+0530\n"
-"PO-Revision-Date: 2021-03-09 13:41+0900\n"
+"PO-Revision-Date: 2021-03-27 22:36+0900\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -200,7 +200,7 @@ msgid ""
 "anywhere else in your privacy policy, enter information about that here. "
 msgstr ""
 "（書き換えてください！）利用者の回答を利用するソフトウェア等で、プライバシー"
-"ポリシーにまだ載せていないものがあれば、ここに書いてください。"
+"ポリシーにまだ載せていないものがあれば、ここに書いてください。 "
 
 #: php/gdpr.php:91
 msgid "Form Responses"
@@ -1408,12 +1408,12 @@ msgstr ""
 
 #: php/admin/options-page-questions-tab.php:233
 msgid "Answers"
-msgstr ""
+msgstr "回答"
 
 #: php/admin/options-page-questions-tab.php:238
 #: php/admin/options-page-questions-tab.php:563
 msgid "Correct"
-msgstr ""
+msgstr "正答"
 
 #: php/admin/options-page-questions-tab.php:243
 msgid "Add New Answer!"
@@ -1425,11 +1425,11 @@ msgstr ""
 
 #: php/admin/options-page-questions-tab.php:267
 msgid "Publish"
-msgstr ""
+msgstr "公開"
 
 #: php/admin/options-page-questions-tab.php:275
 msgid "Question Type"
-msgstr ""
+msgstr "問題の形式"
 
 #: php/admin/options-page-questions-tab.php:291
 msgid "How to use this option?"
@@ -1495,11 +1495,11 @@ msgstr ""
 
 #: php/admin/options-page-questions-tab.php:384
 msgid "Hint"
-msgstr ""
+msgstr "ヒント"
 
 #: php/admin/options-page-questions-tab.php:391
 msgid "Hide Autofill?"
-msgstr ""
+msgstr "オートフィルを無効にするか否か？"
 
 #: php/admin/options-page-questions-tab.php:395
 #: php/admin/options-page-questions-tab.php:483 php/admin/settings-page.php:269
@@ -1802,12 +1802,12 @@ msgstr ""
 
 #: php/admin/quizzes-page.php:329 php/admin/quizzes-page.php:404
 msgid "Title"
-msgstr ""
+msgstr "表題"
 
 #: php/admin/quizzes-page.php:333 php/admin/quizzes-page.php:408
 #: php/admin/quizzes-page.php:561
 msgid "Shortcode"
-msgstr ""
+msgstr "ショートコード"
 
 #: php/admin/quizzes-page.php:334 php/admin/quizzes-page.php:409
 msgid "Views"
@@ -2076,7 +2076,7 @@ msgstr ""
 
 #: php/classes/class-qmn-alert-manager.php:37
 msgid "Success!"
-msgstr ""
+msgstr "成功！"
 
 #: php/classes/class-qmn-quiz-creator.php:199
 msgid ""
@@ -2158,11 +2158,11 @@ msgstr ""
 #: php/classes/class-qmn-quiz-manager.php:1272
 #: php/classes/class-qsm-install.php:533
 msgid "Retake Quiz"
-msgstr ""
+msgstr "もう一度問題を解く"
 
 #: php/classes/class-qmn-quiz-manager.php:1439
 msgid "Click here to view"
-msgstr ""
+msgstr "クリックして表示"
 
 #: php/classes/class-qmn-quiz-manager.php:1904
 msgid "Not collected"
@@ -2170,7 +2170,7 @@ msgstr ""
 
 #: php/classes/class-qmn-quiz-manager.php:1914
 msgid "Unknown"
-msgstr ""
+msgstr "不明"
 
 #: php/classes/class-qmn-review-message.php:91
 #, php-format
