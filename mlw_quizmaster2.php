@@ -2,14 +2,14 @@
 /**
  * Plugin Name: Quiz And Survey Master (patched for UT Doitsugo)
  * Description: Easily and quickly add quizzes and surveys to your website.
- * Version: 7.1.9 patch 1
+ * Version: 7.1.9 patch 2
  * Author: ExpressTech, Nori Hayashi
  * Author URI: https://expresstech.io/
  * Plugin URI: https://github.com/aslemen/quiz_master_next 
  * Text Domain: quiz-master-next
  *
  * @author QSM Team, Nori Hayashi
- * @version 7.1.9 patch 1
+ * @version 7.1.9 patch 2
  * @package QSM
  */
 
@@ -37,7 +37,7 @@ class MLWQuizMasterNext {
 	 * @var string
 	 * @since 4.0.0
 	 */
-	public $version = '7.1.9 patch 1';
+	public $version = '7.1.9 patch 2';
 
 	/**
 	 * QSM Alert Manager Object
